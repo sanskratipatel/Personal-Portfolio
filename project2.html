@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title> 
+    <link rel="stylesheet" href="p2style.css"> 
+    <script src="https://kit.fontawesome.com/5f3972672f.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header"> 
+        <div class="container"> 
+            <nav> 
+                <img src="" alt=""> 
+                <ul >
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Projects</a></li>
+                    <li> <a href="#">Contact</a></li>
+                </ul>
+            </nav> 
+            <div class="header" style="margin-top: 70px;">
+                <p style="color: rgb(179, 190, 192);">Web Developer </p>
+                <h1 style="color: whitesmoke; ">Hi,<br> I'm <span>Sanskrati Patel</span><br>From Sagar, <br>Madhya Pradesh</h1>
+            </div>
+        </div>
+    </div> 
+<!--#####################  ABOUT ###################################-->
+    <div id="about">
+        <div class="container">  
+            <div class="row"> 
+                <div class="about-col-1">
+                    <img src="IMG20230618190841.png" alt="">
+                </div>
+                <div class="about-col-2"> 
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I am Web Developer and Programmer from Madhya Pradesh ,India.I make Web Application,Usually with HTML,CSS and Javascript.<br> 
+                    I primarily use Python,but picking new framework or language is not a problem.I have extensive and I'm comfortable developing on the 
+                    frontend or backend as well as setting up. <br> Apart from that I'm a nice and friendly person.I'm honest and punctual.I work well in a team
+                    also on my own as I like to set myself goals which I will achive.I have good listening skill.I have a creative mind and am always up 
+                    for new challenges.I am well organised and always plan ahead to make sure I manage my time well.</p>
+                <div class="tabtitle"> 
+                    <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                    <p class="tablinks" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tabcontents activetab" id="skills">
+                    <ul>
+                        <li><span>HTML</span><br>Intermediate</li>
+                        <li><span>CSS</span><br>Intermediate</li>
+                        <li><span>Javascript</span><br>Intermediate</li>
+                        <li><span>Python</span><br>Intermediate</li>
+                        <li><span>Django</span><br>Intermediate</li>
+                        <li><span>C/C++</span><br>Intermediate</li>
+                        <li><span>DSA with C++</span><br>Intermediate</li>
+                    </ul>
+                </div> 
+                <div class="tabcontents" id="experience">
+                    <ul>
+                        <li><span>FRESHER</span><br></li>
+                       
+                    </ul>
+                </div>
+                <div class="tabcontents" id="education">
+                    <ul>
+                        <li><span>2020-2021</span><br>Bachelor of Technology (IV Year I.T.)<br>
+                          From Indira Gandhi Engneering College</li>
+                        <li><span>2020</span><br>Higher Secondary(XII - 90%) <br>From Goverment Model Higher Secondary School ,Patera (Damoh)</li>
+                        <li><span>2018</span><br>High Secondary(X - 90.2%) <br>From Goverment Model Higher Secondary School ,Patera (Damoh)</li>
+                        
+                    </ul>
+                </div>
+          </div>
+          
+       </div> 
+
+    </div>  
+
+    <!-- SERVICES --> 
+    <div id="services"> 
+        <div id="container"> 
+            <h1 class="sub-title">Projects</h1> 
+            <div class="serviceslist">  
+                <div>
+                    <i class="fa-solid fa-cloud" style="font-size: 50px ;"></i> 
+                    <h2>Weather Forecasting</h2>
+                  
+                    <p>In this website we predict weather of different location.It is a simple weather forcasting website which retrieves location information and send back information regarding today's weather. <br>
+                    In this website we used :- <br> Python,Django,Json,HTML,CSS and Javascript.</p>
+                    <a href="https://study.com/learn/lesson/weather-forecasting-types-tools.html" style="color: blue;">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-comments" style="font-size: 50px ;"></i>
+                    <h2>Chat Application</h2> 
+                  
+                    <p>It is a real-time chat website. this chat website makes it easy to communicate with other people by sending and receiving messages in real time . In this website admin
+                        remove and add user. In this website multiple user login at a time.In this websitewe use-: <br> HTML,CSS,Json,Javascript PHP,laravel and MySql</p>
+                    <a href="https://www.pubnub.com/guides/the-long-term-benefits-of-building-a-chat-application/" style="color: blue;">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-music" style="font-size: 50px ;"></i>
+                    <h2>Music Player</h2> 
+                    <p>It is a online Music Player.It is a free online website which allows you to listen to music online from your Google Drive. In this website 
+                        we use :- <br> HTML,CSS,Javascript,Python and Django.
+                    </p>
+                    <a href="#" style="color: blue;">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ######################### CONTACT #########################-->
+    <div id="contact"> 
+        <div class="container"></div>
+        
+        <div id="contactleft">
+            <h1 class="sub-title"> Contact Me</h1> 
+            <p style=" margin-top: 30px;"><i class="fa-solid fa-paper-plane" style="color: darkgreen; margin-right: 15px; font-size: 25px;"></i> patelsanskrati05@gmail.com</p>
+            <p style=" margin-top: 30px;"><i class="fa-regular fa-phone" style="color: darkgreen; margin-right: 15px; font-size: 25px;"></i> 9329496348</p>
+            <div class="socialicons">
+                <a href="https://www.linkedin.com/in/sanskrati-patel-b2464b223/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sanskratipatel"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.instagram.com/______sanskrati/?igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-square-instagram"></i></a>
+                
+            </div> 
+            <a href="myCV.pdf" download="" class="btn btn2">Download CV</a>
+        </div>
+        <div id="contactright" style=" flex-basis: 60%;  margin-left: 200px;"></div>
+          <form action="">
+            <input type="text" name ="Name" placeholder="Your Name" required>
+            <input type="email" name = "email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        <div class="copyright">
+            <p>Copyright @Sanskrati <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script> 
+ var tablinks = document.getElementsByClassName("tablinks");
+ var tabcontents = document.getElementsByClassName("tabcontents"); 
+ function opentab(tabname){ 
+    for(tablink of tablinks){ 
+        tablink.classList.remove("activelink");
+    } 
+    for(tabcontent of tabcontents){ 
+        tabcontent.classList.remove("activetab");
+    } 
+    event.currentTarget.classList.add("activelink");
+    document.getElementById(tabname).classList.add("activetab")
+ }
+ 
+    </script>
+</body>
+</html>
